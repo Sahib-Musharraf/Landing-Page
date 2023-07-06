@@ -1,0 +1,95 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: #007bff;
+  }
+  
+  /* Style the hero section */
+  #back {
+    background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .back-content {
+    color: #fff;
+  }
+  
+  .back-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 30px;
+  }
+  
+  /* Style the other sections */
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Style the contact form */
+  form input, form textarea, form button {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: black;
+  }
